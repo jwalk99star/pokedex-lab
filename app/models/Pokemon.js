@@ -6,6 +6,7 @@ export class Pokemon {
 }
 
 
+
 let data = {
   "count": 1281,
   "next": "https://pokeapi.co/api/v2/pokemon?offset=20&limit=20",

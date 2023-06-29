@@ -10,7 +10,7 @@ function _drawPokemon() {
 
   pokemon.forEach(poke => {
     template += `
-    <li onclick"app.PokemonController.getPokeDetails('${poke.url}')">${poke.name}</li>
+    <li onclick"app.PokemonController.getPokeDetails('${poke.url}')" class="selectable mb-2 fs-3" role="button" >${poke.name}</li>
     `
   })
   setHTML('pokeList', template)
